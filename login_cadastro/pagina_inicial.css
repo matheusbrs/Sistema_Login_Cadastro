@@ -1,0 +1,77 @@
+.foto_perfil {
+    width: 200px;
+    ;
+    height: 210px;
+    margin-left: 75%;
+    margin-top: 04%;
+    border: solid 2px rgb(255, 255, 255);
+    position: absolute;
+}
+
+#texto_sobre {
+    border: solid 2px rgb(245, 245, 245);
+    position: absolute;
+    width: 60%;
+    height: 300px;
+    margin-top: 0%;
+    margin-left: 30px;
+}
+.btao{
+    
+    border-radius: 10px 50px;
+    text-align: center;
+}
+#sobre{
+
+list-style: none;
+padding:0;
+background-color: rgb(10, 10, 59);
+
+  
+}
+.cabecalho{
+position: absolute;
+margin-left: 90%;
+display: inline;
+}
+
+
+
+#sobre{
+
+list-style: none;
+padding:0;
+background-color: rgb(10, 10, 59);
+
+
+}
+
+#sobre ul li{
+display: inline;
+
+}
+
+#sobre ul li a{
+color: white;
+text-decoration: none;
+padding: 10px;
+display: inline-block;
+transition: background .4s;
+
+
+}
+
+#sobre ul li a:hover{
+background-color: red;
+
+}
+
+#sobre ul li:last-child a {
+float: right;
+background-color: blue;
+}
+
+#bv{
+    border: solid 1px white;
+
+}
